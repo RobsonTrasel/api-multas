@@ -8,7 +8,7 @@ interface MultaData {
     [key: string]: string
 }
 
-interface ScrapResult {
+export interface ScrapResult {
     multas: MultaData[]
     placa: string
     renavam: string
